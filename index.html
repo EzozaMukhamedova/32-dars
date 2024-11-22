@@ -15,6 +15,7 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- HEADER -->
     <header>
       <nav>
         <div class="container">
@@ -24,7 +25,6 @@
             <div class="nav__logo">
               <img src="./assets/icons/nav-logo.svg" alt="" />
             </div>
-
             <div class="flex gap-[20px]">
               <!-- Contact -->
               <a
@@ -32,24 +32,21 @@
                 href=""
                 >Contact</a
               >
-
               <!-- How it works -->
               <a
                 class="hidden tablet:block text-[16px] py-[18px] px-[50px] bg-[#E5F4F2] rounded-[20px] text-[#009379] font-[700] hover:bg-[#009379] hover:text-white transition-all duration-300"
                 href=""
                 >How it works</a
               >
-
               <!-- Get Started -->
               <a
-                class="hidden desktop:block text-[16px] py-[18px] px-[50px] bg-[#009379] border border-transparent rounded-[20px] text-white font-[700] hover:bg-white hover:text-[#009379] hover:border-[#009379] transition-colors duration-300"
+                class="hidden desktop:block text-[16px] py-[18px] px-[50px] bg-[#009379] rounded-[20px] text-white font-[700] hover:bg-[#006f5c] hover:text-[#fff] hover:border-[#009379] transition-colors duration-300"
                 href=""
               >
                 <img
                   src="./assets/icons/header-rocket.svg"
-                  class="icon inline hover:fill-[#009379] hover:stroke-[#009379]"
+                  class="icon inline hover:fill-[#009379]"
                 />
-
                 Get Started
               </a>
             </div>
@@ -57,16 +54,16 @@
         </div>
       </nav>
     </header>
-
-    <section class="create">
+    <!-- HERO -->
+    <section class="hero">
       <div class="container">
-        <div class="desktop:my-[120px]">
+        <div class="desktop:my-[120px] tablet:mb-[100px] mb-[100px]">
           <div
             class="flex flex-col text-center mx-auto tablet:mx-auto gap-[40px] tablet:gap-[49px] tablet:w-[680px] desktop:flex-row desktop:items-center desktop:justify-between desktop:w-[100%]"
           >
             <div class="desktop:w-[50%] desktop:text-start">
               <h1
-                class="text-[38px] font-[900] desktop:text-[67px] tablet:text-[67px] tablet:leading-[87px] desktop:leading-[87px] pt-[60px] leading-[49px] text-center desktop:text-left tablet: text-"
+                class="text-[38px] font-[900] desktop:text-[67px] tablet:text-[67px] tablet:leading-[87px] desktop:leading-[87px] pt-[60px] leading-[49px] text-center desktop:text-left"
               >
                 Create <br class="tablet:hidden" />
                 Engaging <br />
@@ -78,34 +75,36 @@
                 Build beautiful landing pages in record
                 <br class="desktop:hidden mobile:block tablet:hidden" />
                 time with
-                <span class="text-blue-600 cursor-pointer">Anima’</span> s
-                Landing <br class="hidden tablet:block" />
+                <span
+                  class="text-blue-600 transition-colors duration-300 cursor-pointer hover:text-blue-900"
+                  >Anima’</span
+                >
+                s Landing <br class="hidden tablet:block" />
                 Page UI kit for <br class="tablet:hidden" />
                 Figma. No code required!
               </p>
 
               <div class="flex gap-[18px]">
                 <a
-                  class="desktop:inline tablet:inline m-auto desktop:m-0 text-[16px] py-[18px] px-[50px] bg-[#009379] rounded-[20px] text-white font-[700]"
+                  class="hidden desktop:block text-[16px] py-[18px] px-[50px] bg-[#009379] rounded-[20px] text-white font-[700] hover:bg-[#006f5c] hover:text-[#fff] hover:border-[#009379] transition-colors duration-300"
                   href=""
-                  ><img
-                    class="inline mr-[8px]"
-                    src="./assets/icons/header-rocket.svg"
-                    alt=""
-                  />
-                  Get Started</a
                 >
+                  <img
+                    src="./assets/icons/header-rocket.svg"
+                    class="icon inline hover:fill-[#009379]"
+                  />
+                  Get Started
+                </a>
                 <a
-                  class="hidden desktop:block text-[16px] py-[18px] px-[50px] rounded-[20px] text-[#009379] font-[700] border-solid border-2 border-[#009379]"
+                  class="hidden desktop:block py-[18px] px-[50px] rounded-[20px] text-[#009379] font-[700] border-solid border-[1px] border-[#009379] hover:bg-[#009379] hover:text-white transition-colors duration-300"
                   href=""
-                  >How it works</a
+                  ><span class="">How it works</span></a
                 >
               </div>
             </div>
-
             <div class="mx-auto">
               <img
-                class="w-[100%] desktop:w-[450px]"
+                class="w-[100%] desktop:w-[450px] cursor-pointer hover:scale-105 hover:opacity-100 hover:transition duration-500 ease-in-out"
                 src="./assets/icons/hero-img.svg"
                 alt=""
               />
@@ -114,7 +113,7 @@
         </div>
       </div>
     </section>
-
+    <!-- LOGO -->
     <section class="logo">
       <div class="container">
         <hr />
@@ -122,28 +121,52 @@
           class="flex flex-wrap justify-center my-[30px] desktop:flex desktop:w-[100%] gap-y-[25px] desktop:justify-between tablet:justify-around"
         >
           <div class="w-[33%] tablet:w-[12.5%] flex justify-center">
-            <img class="w-[70%]" src="./assets/icons/logo01.svg" alt="" />
+            <img
+              class="w-[70%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"
+              src="./assets/icons/logo01.svg"
+              alt="Logo 01"
+            />
           </div>
           <div class="w-[33%] tablet:w-[12.5%] flex justify-center">
-            <img class="w-[70%]" src="./assets/icons/logo02.svg" alt="" />
+            <img
+              class="w-[70%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"
+              src="./assets/icons/logo02.svg"
+              alt="Logo 02"
+            />
           </div>
           <div class="w-[33%] tablet:w-[12.5%] flex justify-center">
-            <img class="w-[70%]" src="./assets/icons/logo03.svg" alt="" />
+            <img
+              class="w-[70%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"
+              src="./assets/icons/logo03.svg"
+              alt="Logo 03"
+            />
           </div>
           <div class="w-[33%] tablet:w-[12.5%] flex justify-center">
-            <img class="w-[70%]" src="./assets/icons/logo04.svg" alt="" />
+            <img
+              class="w-[70%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"
+              src="./assets/icons/logo04.svg"
+              alt="Logo 04"
+            />
           </div>
           <div class="w-[33%] tablet:w-[12.5%] flex justify-center">
-            <img class="w-[70%]" src="./assets/icons/logo05.svg" alt="" />
+            <img
+              class="w-[70%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"
+              src="./assets/icons/logo05.svg"
+              alt="Logo 05"
+            />
           </div>
           <div class="w-[33%] tablet:w-[12.5%] flex justify-center">
-            <img class="w-[70%]" src="./assets/icons/logo06.svg" alt="" />
+            <img
+              class="w-[70%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"
+              src="./assets/icons/logo06.svg"
+              alt="Logo 06"
+            />
           </div>
         </div>
         <hr />
       </div>
     </section>
-
+    <!-- FEATURES -->
     <section class="features">
       <div class="container">
         <div class="desktop:my-[120px] tablet:my-[100px] my-[60px]">
@@ -159,7 +182,7 @@
           <div class="flex flex-col gap-[30px] desktop:flex-row">
             <!-- CARD01 -->
             <div
-              class="card m-auto bg-white w-[315px] h-[408px] tablet:w-[680px] tablet:h-[351px] shadow-lg text-center py-[40px] px-[30px] rounded-[20px] desktop:w-[370px] desktop:h-[384px]"
+              class="card border-[#E5F4F2] border-2 m-auto bg-white w-[315px] h-[408px] tablet:w-[680px] tablet:h-[351px] shadow-lg text-center py-[40px] px-[30px] rounded-[20px] desktop:w-[370px] desktop:h-[384px] transition-transform hover:scale-105 hover:shadow-xl duration-300 cursor-pointer hover:bg-[#f5f5f5]"
             >
               <img
                 class="m-auto mb-[30px]"
@@ -179,10 +202,9 @@
                 alt=""
               />
             </div>
-
             <!-- CARD02 -->
             <div
-              class="card m-auto bg-white w-[315px] h-[408px] tablet:w-[680px] tablet:h-[351px] shadow-lg text-center py-[40px] px-[30px] rounded-[20px] desktop:w-[370px] desktop:h-[384px]"
+              class="card m-auto border-[#E5F4F2] border-2 bg-white w-[315px] h-[408px] tablet:w-[680px] tablet:h-[351px] shadow-lg text-center py-[40px] px-[30px] rounded-[20px] desktop:w-[370px] desktop:h-[384px] transition-transform hover:scale-105 hover:shadow-xl duration-300 cursor-pointer hover:bg-[#f5f5f5]"
             >
               <img
                 class="m-auto mb-[30px]"
@@ -192,7 +214,7 @@
               <h2 class="text-[28px] font-[600] leading-[36px] mb-[24px]">
                 Responsive Design
               </h2>
-              <p class="tablet:w-[500px] m-auto desktop:w-[280px]">
+              <p class="tablet:w-[500px] m-auto desktop:w-[290px]">
                 No need to worry about screen size. Anima's Landing Page UI Kit
                 adapts to any screen size, from desktop to mobile.
               </p>
@@ -202,10 +224,9 @@
                 alt=""
               />
             </div>
-
             <!-- CARD03 -->
             <div
-              class="card m-auto bg-white w-[315px] h-[408px] tablet:w-[680px] tablet:h-[351px] shadow-lg text-center py-[40px] px-[30px] rounded-[20px] desktop:w-[370px] desktop:h-[384px]"
+              class="card m-auto border-[#E5F4F2] border-2 bg-white w-[315px] h-[408px] tablet:w-[680px] tablet:h-[351px] shadow-lg text-center py-[40px] px-[30px] rounded-[20px] desktop:w-[370px] desktop:h-[384px] transition-transform hover:scale-105 hover:shadow-xl duration-300 cursor-pointer hover:bg-[#f5f5f5]"
             >
               <img
                 class="m-auto mb-[30px]"
@@ -215,7 +236,7 @@
               <h2 class="text-[28px] font-[600] leading-[36px] mb-[24px]">
                 No Code Needed
               </h2>
-              <p class="m-auto desktop:w-[280px]">
+              <p class="m-auto desktop:w-[290px]">
                 Zero coding skills required, Anima's Landing Page UI Kit
                 empowers you to create stunning landing pages with ease.
               </p>
@@ -229,16 +250,16 @@
         </div>
       </div>
     </section>
-
+    <!-- GET -->
     <section class="get">
       <div class="container">
         <!-- LEFT -->
         <div
-          class="flex flex-col tablet:flex-row justify-center text-center my-[60px] tablet:my-[100px] desktop:my-[120px] tablet: justify-around"
+          class="flex flex-col items-center tablet:flex-row text-center my-[60px] tablet:my-[100px] desktop:my-[120px] tablet:justify-around"
         >
           <div>
             <img
-              class="m-auto desktop:w-[540px] desktop:h-[450px]"
+              class="m-auto desktop:w-[540px] desktop:h-[450px] cursor-pointer hover:scale-105 hover:opacity-90 transition-transform duration-300"
               src="./assets/images/get-img.png"
               alt=""
             />
@@ -246,7 +267,7 @@
           <!-- RIGHT -->
           <div class="tablet:text-left">
             <h1
-              class="desktop:text-[50px] desktop:font-[900] desktop:leading-[65px] text-[28px] leading-[36px] font-[600] py-[20px]"
+              class="desktop:text-[50px] desktop:font-[900] desktop:leading-[65px] tablet:text-[38px] tablet:font-[700] tablet:leading-[49px] text-[28px] leading-[36px] font-[600] py-[20px] tablet:text-left text-center"
             >
               Get Landing Page <br class="hidden tablet:block desktop:hidden" />
               UI <br class="tablet:hidden" />
@@ -254,7 +275,7 @@
               Today!
             </h1>
             <p
-              class="tablet:text-left font-[400] leading-24px mb-[40px] desktop:text-[21px] leading-[31px] tablet:leading-[24px]"
+              class="tablet:text-left font-[400] tablet:leading-[24px] desktop:text-[21px] leading-[31px] tablet:leading-[24px] tablet:text-left text-center desktop:pb-[60px] tablet:pb-[40px]"
             >
               Break the Figma limits and explore the
               <br class="desktop:hidden tablet:block" />
@@ -263,7 +284,7 @@
             </p>
 
             <a
-              class="w-[221px] m-auto text-[16px] py-[18px] px-[50px] bg-[#009379] rounded-[20px] text-white font-[700] mt-[40px] items-center"
+              class="w-[221px] m-auto text-[16px] py-[18px] px-[50px] bg-[#009379] rounded-[20px] text-white font-[700] mt-[60px] items-center hover:bg-[#006f5c] transition-all duration-300 tablet:m-auto"
               href=""
             >
               Get Started
@@ -271,20 +292,30 @@
                 class="inline ml-[8px]"
                 src="./assets/icons/arrow.svg"
                 alt=""
-            /></a>
+              />
+            </a>
           </div>
         </div>
       </div>
     </section>
-
+    <!-- TELL -->
     <section class="tell">
       <div class="container">
-        <div class="mb-[60px]">
+        <div
+          class="my-[60px] tablet:my-[100px] desktop:mt-[120px] desktop:mb-[0]"
+        >
           <!-- INFO-TOP -->
           <div class="">
-            <h1 class="text-[38px] font-[900] leading-[49px] text-center">
+            <h1
+              class="text-[38px] font-[900] leading-[49px] text-center tablet:block desktop:hidden"
+            >
               Our Metrics Tell <br class="tablet:hidden" />
               the Story
+            </h1>
+            <h1
+              class="text-[38px] font-[900] leading-[49px] text-center hidden desktop:block"
+            >
+              Real Stories from Satisfied Customers
             </h1>
             <p class="desktop:hidden text-center mt-[20px] mb-[40px]">
               Our metrics component gives you the <br class="tablet:hidden" />
@@ -293,58 +324,66 @@
               you stay on <br class="hidden tablet:block" />
               top of your game in style.
             </p>
-            <p class="desktop:block hidden mt-[20px] mb-[60px] text-center">
+            <p class="desktop:block hidden mt-[20px] text-center">
               See how our landing page ui kit is making an impact.
             </p>
           </div>
-
           <div
             class="flex flex-col items-center justify-center tablet:flex-row desktop:hidden"
           >
             <div class="flex gap-[20px]">
               <!-- CARD -->
               <div
-                class="bg-white border-2 rounded-t-lg w-[147px] h-[164px] py-[30px] px-[16px] text-center border-b-red-400"
+                class="bg-white border-4 rounded-t-lg w-[147px] h-[164px] py-[30px] px-[16px] text-center border-b-red-300 cursor-pointer hover:transform hover:scale-105 hover:bg-[#f5f5f5] hover:h-[140px] transition-all duration-300"
               >
                 <h2 class="text-[28px] font-[900] mb-[5px]">5000+</h2>
-                <p class="leading-[20px]">
+                <p
+                  class="leading-[20px] max-h-[40px] transition-all duration-300 hover:max-h-[30px] desktop-hover:hidden"
+                >
                   Website <br />
-                  launched with <br />
-                  Anima
+                  launched
+                </p>
+                <p
+                  class="hidden leading-[20px] max-h-[40px] transition-all duration-300 hover:max-h-[30px] tablet-hover:block"
+                >
+                  Website <br />
+                  launched
                 </p>
               </div>
-
               <!-- CARD -->
               <div
-                class="bg-white border-2 rounded-t-lg w-[147px] h-[164px] py-[30px] px-[16px] text-center border-b-red-400 tablet:mr-[20px]"
+                class="bg-white border-4 rounded-t-lg w-[147px] h-[164px] py-[30px] px-[16px] text-center border-b-red-300 tablet:mr-[20px] cursor-pointer hover:transform hover:scale-105 hover:bg-[#f5f5f5] hover:h-[140px] transition-all duration-300"
               >
                 <h2 class="text-[28px] font-[900] mb-[5px]">40m+</h2>
-                <p class="leading-[20px]">
+                <p
+                  class="leading-[20px] max-h-[40px] transition-all duration-300 hover:max-h-[30px]"
+                >
                   Projects <br />
-                  created with <br />
-                  Anima
+                  created
                 </p>
               </div>
             </div>
-
             <div class="flex gap-[20px] mt-[20px] tablet:mt-[0]">
               <!-- CARD -->
               <div
-                class="bg-white border-2 rounded-t-lg w-[147px] h-[164px] py-[30px] px-[16px] text-center border-b-red-400"
+                class="bg-white border-4 rounded-t-lg w-[147px] h-[164px] py-[30px] px-[16px] text-center border-b-red-300 cursor-pointer hover:transform hover:scale-105 hover:bg-[#f5f5f5] hover:h-[140px] transition-all duration-300"
               >
                 <h2 class="text-[28px] font-[900] mb-[5px]">100k+</h2>
-                <p class="leading-[20px]">
+                <p
+                  class="leading-[20px] max-h-[40px] transition-all duration-300 hover:max-h-[30px]"
+                >
                   New users <br />
                   joined Anima
                 </p>
               </div>
-
               <!-- CARD -->
               <div
-                class="bg-white border-2 rounded-t-lg w-[147px] h-[164px] py-[30px] px-[16px] text-center border-b-red-400"
+                class="bg-white border-4 rounded-t-lg w-[147px] h-[164px] py-[30px] px-[16px] text-center border-b-red-300 cursor-pointer hover:transform hover:scale-105 hover:bg-[#f5f5f5] hover:h-[140px] transition-all duration-300"
               >
                 <h2 class="text-[28px] font-[900] mb-[5px]">700k+</h2>
-                <p class="leading-[20px]">
+                <p
+                  class="leading-[20px] max-h-[40px] transition-all duration-300 hover:max-h-[30px]"
+                >
                   Teams used <br />
                   Anima
                 </p>
@@ -354,7 +393,7 @@
         </div>
       </div>
     </section>
-
+    <!-- REAL -->
     <section class="real">
       <div class="container">
         <div
@@ -376,11 +415,11 @@
           <div
             class="flex flex-col gap-[30px] tablet:gap-[20px] desktop:flex-row"
           >
-            <!-- CARD -->
+            <!-- CARD 1 -->
             <div
-              class="text-center bg-white border-2 border-[#E5F4F2] w-[315px] h-[458px] m-auto py-[40px] px-[30px] rounded-[20px] tablet:w-[680px] tablet:flex tablet: justify-around items-center tablet:w-[680px] tablet:h-[271px] tablet:text-left desktop:flex desktop:flex-col desktop:w-[370px] desktop:h-[434px]"
+              class="text-center bg-white shadow-lg border-2 border-[#E5F4F2] w-[315px] h-[458px] m-auto py-[40px] px-[30px] rounded-[20px] tablet:w-[680px] tablet:flex tablet:justify-around items-center tablet:w-[680px] tablet:h-[271px] tablet:text-left desktop:flex desktop:flex-col desktop:w-[370px] desktop:h-[434px] transition-all duration-300 hover:scale-105 hover:bg-[#f5f5f5] hover:shadow-lg cursor-pointer"
             >
-              <div class="">
+              <div>
                 <img
                   class="m-auto"
                   src="./assets/images/real-photo.png"
@@ -393,7 +432,6 @@
                 </h2>
                 <span class="text-[14px] font-[400]">UX Designer @Brello</span>
               </div>
-
               <div class="flex flex-col items-start tablet:text-center">
                 <p class="w-[255px] pt-[30px] leading-[24px]">
                   "I was looking for a way to streamline my design process and
@@ -401,20 +439,18 @@
                   design and ease of customisation have saved me hours of time
                   and effort. Highly recommend!"
                 </p>
-
                 <img
-                  class="pt-[30px] pb-[30px]"
+                  class="pt-[24px] pb-[40px] desktop:w-[170px] desktop:m-auto"
                   src="./assets/icons/real-star.svg"
                   alt="Star Icon"
                 />
               </div>
             </div>
-
-            <!-- CARD -->
+            <!-- CARD 2 -->
             <div
-              class="text-center bg-white border-2 border-[#E5F4F2] w-[315px] h-[458px] m-auto py-[40px] px-[30px] rounded-[20px] tablet:w-[680px] tablet:flex tablet: justify-around items-center tablet:w-[680px] tablet:h-[271px] tablet:text-left desktop:flex desktop:flex-col desktop:w-[370px] desktop:h-[434px]"
+              class="text-center bg-white shadow-lg border-2 border-[#E5F4F2] w-[315px] h-[458px] m-auto py-[40px] px-[30px] rounded-[20px] tablet:w-[680px] tablet:flex tablet:justify-around items-center tablet:w-[680px] tablet:h-[271px] tablet:text-left desktop:flex desktop:flex-col desktop:w-[370px] desktop:h-[434px] transition-all duration-300 hover:scale-105 hover:bg-[#f5f5f5] hover:shadow-lg cursor-pointer"
             >
-              <div class="">
+              <div>
                 <img
                   class="m-auto"
                   src="./assets/images/real-photo2.png"
@@ -429,7 +465,6 @@
                   >Creative Director @Yo</span
                 >
               </div>
-
               <div class="flex flex-col items-start tablet:text-center">
                 <p class="w-[240px] pt-[30px] leading-[24px]">
                   “The Landing Page UI Kit has been a game changer for my
@@ -438,18 +473,17 @@
                   job!"
                 </p>
                 <img
-                  class="pt-[30px] pb-[30px]"
+                  class="pt-[24px] pb-[40px] desktop:w-[170px] desktop:m-auto"
                   src="./assets/icons/real-star-center.svg"
                   alt=""
                 />
               </div>
             </div>
-
-            <!-- CARD -->
+            <!-- CARD 3 -->
             <div
-              class="text-center bg-white border-2 border-[#E5F4F2] w-[315px] h-[458px] m-auto py-[40px] px-[30px] rounded-[20px] tablet:w-[680px] tablet:flex tablet: justify-around items-center tablet:w-[680px] tablet:h-[271px] tablet:text-left desktop:flex desktop:flex-col desktop:w-[370px] desktop:h-[434px]"
+              class="text-center bg-white shadow-lg border-2 border-[#E5F4F2] w-[315px] h-[458px] m-auto py-[40px] px-[30px] rounded-[20px] tablet:w-[680px] tablet:flex tablet:justify-around items-center tablet:w-[680px] tablet:h-[271px] tablet:text-left desktop:flex desktop:flex-col desktop:w-[370px] desktop:h-[434px] transition-all duration-300 hover:scale-105 hover:bg-[#f5f5f5] hover:shadow-lg cursor-pointer"
             >
-              <div class="">
+              <div>
                 <img
                   class="m-auto"
                   src="./assets/images/real-photo3.png"
@@ -462,7 +496,6 @@
                 </h2>
                 <span class="text-[14px] font-[400]">UX UI Designer @Boo</span>
               </div>
-
               <div class="flex flex-col items-start tablet:text-center">
                 <p class="w-[250px] pt-[30px] leading-[24px]">
                   "Anima’s Landing Page UI Kit has become a staple in my design
@@ -471,7 +504,7 @@
                   get the job done quickly and efficiently."
                 </p>
                 <img
-                  class="pt-[30px] pb-[30px]"
+                  class="pt-[24px] pb-[40px] tablet:pb-[40px] desktop:pb-[40px] desktop:w-[170px] desktop:m-auto"
                   src="./assets/icons/real-star.svg"
                   alt=""
                 />

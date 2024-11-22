@@ -1,11 +1,9 @@
 .container {
-  border: 1px solid red;
   box-sizing: border-box;
 }
 
 body {
   margin: 0 !important;
   padding: 0 !important;
-  background-color: #F8F9FF;
-  
+  background-color: #f8f9ff;
 }
